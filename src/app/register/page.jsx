@@ -28,8 +28,6 @@ export default function RegisterPage() {
     setCreatingUser(false);
   }
 
-  console.log(email);
-
   return (
     <section className="mt-8">
       <h1 className="text-center text-primary text-4xl mb-4">Register</h1>
