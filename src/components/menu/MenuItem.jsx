@@ -6,6 +6,7 @@ import { useContext, useState } from "react";
 // import toast from "react-hot-toast";
 
 export default function MenuItem(menuItem) {
+  console.log(menuItem);
   const { image, name, description, basePrice, sizes, extraIngredientPrices } =
     menuItem;
   const [selectedSize, setSelectedSize] = useState(sizes?.[0] || null);
